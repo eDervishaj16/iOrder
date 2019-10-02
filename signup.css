@@ -1,0 +1,90 @@
+body::before{
+    content: ""; /* important */
+    z-index: -1; /* important */
+    position: inherit;  
+    left: inherit;
+    top: inherit;
+    width: inherit;                                                                               
+    height: inherit;  
+    background-image: inherit;
+    background-size: cover; 
+    filter: blur(3px);
+}
+
+body{
+    margin: 0px;
+    background-image: url("https://reputationresolutions.com/wp-content/uploads/2017/06/restaurant.jpg"); 
+    background-size: 0 0;  /* image should not be drawn here */
+    width: 100%;
+    height: 100%;
+    position: fixed; /* or absolute for scrollable backgrounds */  
+}   
+
+#main{
+    margin: 5% auto;
+    border: 1px solid lightcoral;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    z-index: 2;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(0,0,0, 0.6);
+    box-shadow: 0 8px 12px 0 rgba(148, 68, 68, 0.5), 0 12px 40px 0 rgba(148, 68, 68, 0.5);
+}
+
+#loginLink{
+    color: white; 
+    text-decoration: underline;
+}
+
+#loginLink:hover{
+    color: lightcoral;
+}
+
+#singupForm{
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+input{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+label{
+    color: white;
+}
+
+input:hover{
+    box-shadow: 1px 1px 2px lightcoral, 0 0 25px lightcoral, 0 0 5px lightcoral;
+}
+
+#SignBtn{
+    margin-left: 43%;
+    margin-bottom: 10px;
+}
+
+button{
+    margin-left: 18px;
+    margin-top: 10px;
+    padding: 0px;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    text-decoration: bold;
+    color: white;
+}
+
+button:hover{
+    color: lightcoral;
+}
+
+#error{
+    text-decoration: underline;
+    color: lightcoral;
+    margin-top: 2px;
+    margin-left: 5px;
+}

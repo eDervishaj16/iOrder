@@ -1,0 +1,84 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    border-bottom: 1px solid lightsteelblue;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #E2E0F3;
+}
+tr:hover{
+    background-color: #e0e1e0;
+}
+.addUser{
+    width: 119px;
+}
+.delete_button{
+    padding: 7px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+.delete_button:hover{
+    background-color: red;
+    color: white;
+}
+.add{
+    padding: 7px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid royalblue;
+}
+.add:hover{
+    background-color: royalblue;
+    color: white;
+}
+.save{
+    padding: 7px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+.save:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+span{
+    color: red;
+    text-decoration: underline;
+}
+#save{
+    background-color: #3b4f9d;
+    color: white;
+}
+#cancel{
+    background-color: #9bc9ff;
+    color: white;
+}
+a:active{
+    color: white;
+}

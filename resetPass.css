@@ -1,0 +1,61 @@
+body::before{
+    content: ""; /* important */
+    z-index: -1; /* important */
+    position: inherit;  
+    left: inherit;
+    top: inherit;
+    width: inherit;                                                                               
+    height: inherit;  
+    background-image: inherit;
+    background-size: cover; 
+    filter: blur(3px);
+}
+
+body{
+    margin: 0px;
+    background-image: url("https://reputationresolutions.com/wp-content/uploads/2017/06/restaurant.jpg"); 
+    background-size: 0 0;  /* image should not be drawn here */
+    width: 100%;
+    height: 100%;
+    position: fixed; /* or absolute for scrollable backgrounds */  
+}   
+
+#mainDIV{
+    text-align: center;
+    margin: 15% auto;
+    border: 1px solid lightcoral;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    z-index: 2;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(0,0,0, 0.6);
+    box-shadow: 0 8px 12px 0 rgba(148, 68, 68, 0.5), 0 12px 40px 0 rgba(148, 68, 68, 0.5);
+}
+
+#forgetPassForm{
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+input[type = "text"]{
+    text-align: left;
+    margin-top: 10px;
+    width: 300px;
+}
+
+input[type = "submit"]{
+    width: 70px; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+label{
+    color: white;  
+}
+
+input:hover{
+    box-shadow: 1px 1px 2px lightcoral, 0 0 25px lightcoral, 0 0 5px lightcoral;
+}
+
